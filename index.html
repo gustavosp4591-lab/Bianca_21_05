@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>para você, Bianca · 1 ano e 3 meses</title>
+  <meta name="description" content="Uma página feita à mão. 1 ano e 3 meses de nós dois.">
+
+  <!-- Preview no WhatsApp/Instagram quando ela abrir o link -->
+  <meta property="og:title" content="para você, meu amor">
+  <meta property="og:description" content="1 ano e 3 meses de nós dois.">
+  <meta property="og:image" content="assets/image/minha_vda.jpeg">
+  <meta property="og:type" content="website">
+
+  <!-- Fontes: Fraunces (serifa de display) + Inter (corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ================== HERO ================== -->
+  <section class="hero">
+    <p class="hero__eyebrow">para o amor da minha vida</p>
+    <h1 class="hero__title">Bianca</h1>
+    <p class="hero__subtitle">um ano e três meses<br>de nós dois</p>
+
+    <div class="hero__date">
+      <span class="hero__date-label">desde</span>
+      <span class="hero__date-value" id="start-date">—</span>
+    </div>
+
+    <div class="hero__scroll">role para baixo</div>
+  </section>
+
+  <!-- ================== FOTO ================== -->
+  <section class="photo">
+    <figure class="photo__figure">
+      <img src="assets/image/minha_vda.jpeg" alt="Eu e a Bianca" class="photo__img">
+      <figcaption class="photo__caption">— você e eu —</figcaption>
+    </figure>
+  </section>
+
+  <!-- ================== CONTADOR AO VIVO ================== -->
+  <section class="counter">
+    <p class="counter__label">a gente está junto há exatamente</p>
+
+    <div class="counter__grid">
+      <div class="counter__unit">
+        <span class="counter__num" id="days">000</span>
+        <span class="counter__name">dias</span>
+      </div>
+      <div class="counter__unit">
+        <span class="counter__num" id="hours">00</span>
+        <span class="counter__name">horas</span>
+      </div>
+      <div class="counter__unit">
+        <span class="counter__num" id="minutes">00</span>
+        <span class="counter__name">minutos</span>
+      </div>
+      <div class="counter__unit">
+        <span class="counter__num" id="seconds">00</span>
+        <span class="counter__name">segundos</span>
+      </div>
+    </div>
+
+    <p class="counter__caption">e cada um deles foi sobre você.</p>
+  </section>
+
+  <!-- ================== CARTA ================== -->
+  <section class="letter">
+    <h2 class="letter__title">uma carta</h2>
+
+    <div class="letter__body">
+      <p>Bianca,</p>
+
+      <p>Hoje a gente completa 1 ano e 3 meses e eu fico pensando em como a vida mudou desde que você chegou Parece até que, antes de vc, tudo era meio incompleto como se faltasse algo que eu nem sabia explicar E aí vc apareceu e fez tudo fazer sentido A cada mês que passa, eu sinto que venci na vida. De verdade, Porque tem gente que passa a vida inteira procurando o que eu encontrei em vc, Eu me sinto rico, me sinto completo porque eu tenho um amor que dinheiro nenhum compra, um amor verdadeiro Vc é minha paz no meio do caos É meu abrigo quando o mundo pesa, É a pessoa que me acalma, que me entende, que me levanta quando eu nem sei como continuar, Vc não é só minha namorada vc é me tudo, Eu não consigo me imaginar sem vcc Só de pensar nisso já dói. Porque você virou parte de mim, do meu dia, dos meus planos, do meu futuro, Deus foi bom demais comigo quando te colocou na minha vida bom até mais do que eu merecia E o que mais me emociona é saber que, mesmo com tudo, vc continua me escolhendo todos os dias, Isso não é pequeno isso é tudo Sabe como eu sei que é amor de verdade? Porque quando eu tô com vc, o tempo voa eu esqueço do mundo, esqueço dos problemas. Eu só quero ficar ali, com vc, naquele momento. E quando eu tenho que ir embora parece que fica um vazio, uma saudade que aperta o peito na mesma hora Eu sonho com o nosso futuro. Com a gente construindo nossas coisas, vivendo nossos planos, realizando nossos sonhos lado a lado, Porque pra mim, não faz sentido nenhum viver isso sem vc Vc é meu orgulho Vc é o melhor que me aconteceu,Vc é o amor da minha vida e se eu pudesse te prometer algo, seria isso todos os dias eu vou continuar te escolhendo, assim como vc me escolhe Eu te amo mais do que consigo colocar em palavras Feliz 1 ano e 3 meses, meu amor 🤍🤍🤍 </p>
+
+
+      <p class="letter__sign">— sempre seu,<br>Gustavo</p>
+    </div>
+  </section>
+
+  <!-- ================== O QUE EU AMO ================== -->
+  <section class="list">
+    <h2 class="list__title">o que eu amo em você</h2>
+
+    <ol class="list__items">
+      <li class="list__item">
+        <span class="list__num">01</span>
+        <span class="list__text">O jeito que vc me faz sentir em paz, mesmo nos dias difíceis</span>
+      </li>
+      <li class="list__item">
+        <span class="list__num">02</span>
+        <span class="list__text">O seu sorriso, que muda completamente o meu humor</span>
+      </li>
+      <li class="list__item">
+        <span class="list__num">03</span>
+        <span class="list__text">A forma como vc se importa comigo nos detalhes</span>
+      </li>
+      <li class="list__item">
+        <span class="list__num">04</span>
+        <span class="list__text">O seu cheirinho, que eu sou viciado</span>
+      </li>
+      <li class="list__item">
+        <span class="list__num">05</span>
+        <span class="list__text">O quanto ela me motiva a ser uma pessoa melhor</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ================== FOOTER ================== -->
+  <footer class="footer">
+    <p class="footer__text">feito à mão com amor por Gustavo · maio de 2026</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
