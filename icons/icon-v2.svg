@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="115" ry="115" fill="#FDF0F3"/>
+
+  <!-- G - dark, left -->
+  <text x="178" y="338"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="310"
+    font-weight="400"
+    fill="#1A1A1A"
+    text-anchor="middle">G</text>
+
+  <!-- B - pink/coral, right -->
+  <text x="334" y="338"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="310"
+    font-weight="400"
+    fill="#E07080"
+    text-anchor="middle">B</text>
+
+  <!-- Heart solid - center overlap -->
+  <path d="M256 310
+    C256 310 210 272 210 245
+    C210 228 222 218 236 218
+    C245 218 253 223 256 230
+    C259 223 267 218 276 218
+    C290 218 302 228 302 245
+    C302 272 256 310 256 310Z"
+    fill="#E07080"
+    transform="scale(2.1) translate(-122, -88)"
+  />
+</svg>

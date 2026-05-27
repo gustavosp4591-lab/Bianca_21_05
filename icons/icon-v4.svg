@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="115" ry="115" fill="#FDF0F3"/>
+
+  <!-- B grande centralizado -->
+  <text x="256" y="318"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="295"
+    font-weight="400"
+    fill="#1A1A1A"
+    text-anchor="middle">B</text>
+
+  <!-- Data pequena abaixo -->
+  <text x="256" y="382"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="48"
+    font-weight="400"
+    fill="#1A1A1A"
+    text-anchor="middle"
+    letter-spacing="3">21/02</text>
+
+  <!-- Coraçãozinho esquerda -->
+  <path d="M164,375 C164,375 150,365 150,357 C150,352 154,349 159,349 C161,349 163,350 164,353 C165,350 167,349 169,349 C174,349 178,352 178,357 C178,365 164,375 164,375Z"
+    fill="#E07080"/>
+
+  <!-- Coraçãozinho direita -->
+  <path d="M348,375 C348,375 334,365 334,357 C334,352 338,349 343,349 C345,349 347,350 348,353 C349,350 351,349 353,349 C358,349 362,352 362,357 C362,365 348,375 348,375Z"
+    fill="#E07080"/>
+
+</svg>

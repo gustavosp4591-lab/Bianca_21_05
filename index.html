@@ -23,6 +23,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="manifest" href= "manifest.json">
+<meta name="theme-color" content="#F8E8EC">
+
 </head>
 <body>
 
@@ -122,5 +126,12 @@
   </footer>
 
   <script src="assets/js/script.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>
+
 </body>
 </html>
