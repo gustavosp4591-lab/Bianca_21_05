@@ -2,13 +2,13 @@ const CACHE_NAME = "bianca-v1";
 
 // Todos os arquivos que o app precisa pra funcionar offline
 const ASSETS_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/script.js",
-  "/manifest.json",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "/Bianca_21_05/",
+  "/Bianca_21_05/index.html",
+  "/Bianca_21_05/style.css",
+  "/Bianca_21_05/script.js",
+  "/Bianca_21_05/manifest.json",
+  "/Bianca_21_05/icons/icon-192x192.png",
+  "/Bianca_21_05/icons/icon-512x512.png"
 ];
 
 // INSTALL — cacheia tudo na primeira vez
